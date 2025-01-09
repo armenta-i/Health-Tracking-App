@@ -89,7 +89,7 @@ The backend will run at: http://127.0.0.1:8000
 
 ### 2. Keep the requirements.txt and package.json files updated when adding new dependencies:
 
-- For Python: After installin a new package, run:
+- **For Python**: After installin a new package, run:
 
 ```bash
 pip freeze > requirements.txt
