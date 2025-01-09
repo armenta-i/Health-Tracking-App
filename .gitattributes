@@ -1,0 +1,7 @@
+# Automatically normalize line endings for text files
+* text=auto
+
+# Force specific line endings for certain files
+*.sh text eol=lf       # Use LF for shell scripts
+*.bat text eol=crlf    # Use CRLF for batch scripts
+*.md text eol=lf       # Use LF for Markdown files
