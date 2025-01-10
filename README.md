@@ -14,41 +14,30 @@ Before you begin, ensure you have the following installed on your machine:
 ---
 
 ## **Project Structure**
-health-tracker-app/
-│
-├── frontend/          # Frontend (React.js)
-├── backend/           # Backend (Django/Flask)
-├── models/            # AI models for recommendations
-├── database/          # SQL/NoSQL scripts
-└── cloud/             # Deployment scripts
-
----
+![Project folder structure](project_structure.png "Project Structure")
 
 ## **Frontend Setup**
-
-### **1. Navigate to the Frontend Directory**
+### 1. Navigate to the Frontend Directory
 ```bash
 cd frontend
 ```
 
-### **2. Install Dependencies**
+### 2. Install Dependencies
 Run the following command to install all dependencies listed in package.json:
 ```bash
-npm install
+yarn install
 ```
 
-### **3. Start the Development Server**
+### 3. Start the Development Server
 Run the following command to start the React app:
 ```bash
-npm start
+yarn start
 ```
 The app will run at: http://localhost:3000
 
-### **4. Build the Application (Optional)**
+### 4. Build the Application (Optional)
 If you want to build the application for production:
-```bash
-npm run build
-```
+yarn build
 
 ## **Backend Setup**
 
@@ -99,8 +88,6 @@ pip freeze > requirements.txt
 - Deleting node_modules/ (for frontend) or venv/ (for backend)
 - Reinstalling dependencies using: 
 ```bash
-npm install # For frontend
+yarn install # For frontend
 pip install -r requirements.txt # For backend
 ```
- 
-
