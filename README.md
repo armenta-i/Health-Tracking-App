@@ -13,9 +13,6 @@ Before you begin, ensure you have the following installed on your machine:
 
 ---
 
-## **Project Structure**
-![Project folder structure](project_structure.png "Project Structure")
-
 ## **Frontend Setup**
 ### 1. Navigate to the Frontend Directory
 ```bash
